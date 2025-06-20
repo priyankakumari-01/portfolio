@@ -36,7 +36,8 @@
   background: linear-gradient(145deg, #0a192f, #0c1f35);
   display: flex;
   padding: 80px 0;
-}.hero-img-wrapper {
+}
+.hero-img-wrapper {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 50%;
   padding: 10px;
@@ -208,7 +209,20 @@
   background: linear-gradient(135deg, #0a192f, #112240);
   box-shadow: 0 0 20px rgba(0,229,255,0.3);
 }
-
+.about-section {
+  min-height: 100vh;
+  /* background: linear-gradient(145deg, #0a192f, #0c1f35); */
+  background-color: #0d1117;
+  display: flex;
+  padding: 80px 0;
+}
+.skill-section {
+  min-height: 100vh;
+  /* background: linear-gradient(145deg, #0a192f, #0c1f35); */
+  background-color: #0d1117;
+  display: flex;
+  padding: 80px 0;
+}
 .skill-card {
   background: #161b22;
   border-left: 5px solid #00e5ff;
@@ -223,6 +237,13 @@
   transform: translateY(-5px);
 }
 /* Glass-style form for dark mode */
+.contact-section {
+  min-height: 100vh;
+  /* background: linear-gradient(145deg, #0a192f, #0c1f35); */
+  background-color: #0d1117;
+  display: flex;
+  padding: 80px 0;
+}
 .contact-form-glass {
   background: rgba(22, 27, 34, 0.2);
   backdrop-filter: blur(10px);
@@ -279,7 +300,13 @@ body.light-mode .form-glass:focus {
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
   border-color: #007bff;
 }
-
+.footer-section {
+  min-height: 100vh;
+  /* background: linear-gradient(145deg, #0a192f, #0c1f35); */
+  background-color: #0d1117;
+  display: flex;
+  padding: 80px 0;
+}
 .footer-glass {
   background: rgba(22, 27, 34, 0.2);
   backdrop-filter: blur(8px);
